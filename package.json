@@ -1,6 +1,6 @@
 {
   "name": "beliq-validate-action",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "private": true,
   "description": "GitHub Action that validates EU e-invoices in CI against beliq authority-pinned rules.",
   "type": "module",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/beliq-eu/beliq-validate-action.git"
   },
   "engines": {
-    "node": ">=20.15"
+    "node": ">=22"
   },
   "scripts": {
     "lint": "eslint runner.mjs test",
